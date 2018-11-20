@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: train-scheduleserveice
+  name: train-schedule-serveice
 spec:
   type: NodePort
   selector:
@@ -16,7 +16,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: train-scheduledeployment
+  name: train-schedule-deployment
   labels:
     app: train-schedule
 spec:
